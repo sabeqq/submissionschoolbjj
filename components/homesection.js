@@ -1,5 +1,5 @@
 import Image from "next/image"
-import heroimage from '../public/heroimg.jpg'
+import heroimage from '../public/landing.png'
 
 
 export default function homesection() {
@@ -20,12 +20,12 @@ export default function homesection() {
             </div>
 
           </div>
-          <div className="page_image my-10 text-center">
+          <div className="page_image my-10 text-center ">
                     <Image src={heroimage}
-                    className="rounded-lg"
+                    className="rounded-lg "
                      alt=""
-                     height="300px"
-                     width="500px"
+                     height=""
+                     width=""
                      />
           </div>
 

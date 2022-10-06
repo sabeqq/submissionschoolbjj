@@ -12,11 +12,11 @@ export default function schedule() {
         <div className="flex flex-col">
   <div className="overflow-x-auto sm:-mx-6 lg:-mx-8 ">
     <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
-      <div className="overflow-hidden rounded-2xl border-2 border-black" >
+      <div className="overflow-hidden rounded-lg border-2 border-black" >
         <table className="min-w-full text-center ">
           <thead className="border-b bg-gray-50">
             <tr>
-            <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 bg-orange-400 ">
+            <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 bg-orange-400 p position: sticky left:0 z-2 ;">
                   
               </th>
               <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 bg-orange-400">
