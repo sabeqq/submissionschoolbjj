@@ -6,7 +6,7 @@ export default function schedule() {
     return (
       <section className="py-1 h-100 whitespace-normal ">
 
-        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 grid md: grid-cols-1" >
+        <div className="max-w-6xl  m-auto items-center p-4 grid md: grid-cols-1" >
         <h2 className="text-1xl md:text-4xl font-bold font-sans md:font-sans mb-5 text-center"> Weekly Schedule</h2>
 
         <div className="flex flex-col">

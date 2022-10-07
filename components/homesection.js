@@ -6,7 +6,8 @@ export default function homesection() {
     return (
       <section className="py-16 h-100 whitespace-normal	mt-24">
 
-        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 grid md: grid-cols-2 h-90" >
+        <div className="max-w-6xl m-auto p-4 grid md:grid-cols-2 gap-16 h-90" >
+          <div className="flex items-center">
           <div className="page_title ">
             <div className="page_name">
                <h1 className="text-2xl md:text-6xl font-bold font-sans md:font-sans	"> Submission School</h1>
@@ -20,6 +21,8 @@ export default function homesection() {
             </div>
 
           </div>
+          
+</div>
           <div className="page_image my-10 text-center ">
                     <Image src={heroimage}
                     className="rounded-lg "

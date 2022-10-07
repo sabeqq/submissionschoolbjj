@@ -5,7 +5,7 @@ export default function about() {
   return (
     <section className="py-1 h-90 whitespace-normal mb-16">
 
-        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 grid md: grid-cols-2 h-90 " >
+        <div className="max-w-6xl m-auto p-4 grid md:grid-cols-2 gap-16 h-90 items-center" >
         <div className="about_image my-10 drop-shadow-2xl">
                     <Image src={aboutimg}
                     className="rounded-lg shadow-xl"
