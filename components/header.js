@@ -5,7 +5,7 @@ import logo from '../public/SSlogo.jpg'
 import { useState } from "react"
 // import { Link } from "react-scroll/modules"
 
-export default function header() {
+export default function Header() {
     const [nav, setNav] = useState(false)
     const handleNav = () => {
         setNav(!nav)
