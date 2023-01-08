@@ -13,7 +13,7 @@ export default function header() {
 
     return (
         <header className="fixed left-0 top-0 w-full z-10 text-black bg-white shadow-md ">
-            <div className="max-w-[1240px] m-auto flex justify-between items-center p-4">
+            <div className="max-w-[1500px] m-auto flex justify-between items-center p-4">
                 <Image
                     src={logo}
                     alt=""

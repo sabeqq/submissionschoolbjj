@@ -4,9 +4,9 @@ import heroimage from '../public/heroimg.jpg'
 
 export default function schedule() {
   return (
-    <section className="py-1 h-100 whitespace-normal " id="schedule">
+    <section className="py-16  whitespace-normal " id="schedule">
 
-      <div className="max-w-6xl  m-auto items-center p-4 grid md: grid-cols-1" >
+      <div className="container px-6 py-4 mx-auto" >
         <h2 className="text-1xl md:text-4xl font-bold font-sans md:font-sans mb-5 text-center"> Weekly Schedule</h2>
 
         <div className="flex flex-col">
@@ -16,7 +16,7 @@ export default function schedule() {
                 <table className="min-w-full text-center ">
                   <thead className=" sticky top-0 ">
                     <tr>
-                      <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 bg-orange-400 p position: sticky left:0 z-2 ; ">
+                      <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 bg-orange-400 p position: sticky left:0 z-2 ;">
 
                       </th>
                       <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 bg-orange-400">
