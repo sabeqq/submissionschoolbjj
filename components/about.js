@@ -12,18 +12,9 @@ export default function about() {
         <div className="max-w-[1400px]  grid grid-cols-1 lg:max-w-[1400px] lg:gap-x-20 lg:grid-cols-2">
 
           <div className="grid gap-4 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:mb-0 ">
-            <picture>
-              <img src="/about1.png" height={200} width={420} alt="" className="w-full h-60 shadow-2xl object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full" loading="lazy" />
-            </picture>
-            <picture>
-
-              <img src="/about2.png" alt="" className="hidden w-full h-52 shadow-2xl object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
-            </picture>
-            <picture>
-
-              <img src="/about3.png" alt="" className="hidden w-full h-52 shadow-2xl object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
-            </picture>
-
+            <img src="/about1.png" height={200} width={420} alt="" className="w-full h-60 shadow-2xl object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full" loading="lazy" />
+            <img src="/about2.png" alt="" className="hidden w-full h-52 shadow-2xl object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
+            <img src="/about3.png" alt="" className="hidden w-full h-52 shadow-2xl object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
           </div>
           <div className="">
             <div className="">
@@ -56,7 +47,7 @@ export default function about() {
             </div>
 
             <p className="mt-4 text-black leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 w-auto ">
-              This sunny and spacious room is for those traveling light and looking for a comfy and cosy place to lay their head for a night or two. This beach house sits in a vibrant neighborhood littered with cafes, pubs, restaurants and supermarkets and is close to all the major attractions such as Edinburgh Castle and  Seat.
+              This sunny and spacious room is for those traveling light and looking for a comfy and cosy place to lay their head for a night or two. This beach house sits in a vibrant neighborhood littered with cafes, pubs, restaurants and supermarkets and is close to all the major attractions such as Edinburgh Castle and Arthur's Seat.
             </p>
 
           </div>
