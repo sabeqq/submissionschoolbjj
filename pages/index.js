@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Format from '../layout/format'
-import HomeSection from '../components/homesection'
+// import HomeSection from '../components/homesection'
 import HomeSection2 from '../components/homesection2'
 
 import AboutSection from '../components/about'
@@ -18,7 +18,6 @@ export default function Home() {
 
     <Format>
       <HomeSection2></HomeSection2>
-
       <AboutSection></AboutSection>
       <ScheduleSection></ScheduleSection>
       <PriceSection></PriceSection>

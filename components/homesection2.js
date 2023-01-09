@@ -1,5 +1,5 @@
 import Image from "next/image"
-import heroimage from '../public/landing.png'
+import heroimage from '/public/landing.png'
 
 
 export default function homesection2() {
