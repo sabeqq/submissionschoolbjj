@@ -1,5 +1,5 @@
 import Image from "next/image"
-import heroimage from '/public/landing.png'
+// import heroimage from '/public/landing.png'
 
 
 export default function homesection2() {
@@ -24,11 +24,11 @@ export default function homesection2() {
                     </div>
 
                     <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                        <Image src={heroimage}
+                        <Image src="/landing.png"
                             className="w-full h-full rounded-lg shadow-2xl lg:max-w-2xl "
                             alt=""
-                            height=""
-                            width=""
+                            height={745}
+                            width={745}
                         />
                     </div>
                 </div>
