@@ -7,8 +7,8 @@ export default function homesection2() {
         <section className="py-16 h-100 whitespace-normal	mt-24 " id="homesection">
             <div className="container px-6 py-4 mx-auto">
 
-                <div className="items-center lg:flex">
-                    <div className="w-full lg:w-1/2">
+                <div className="grid grid-cols-1 lg:gap-x-20 lg:grid-cols-2 gap-y-10 lg:gap-y-0">
+                    <div className="flex items-center">
                         <div className="">
 
                             <div className="lg:max-w-lg">
@@ -23,9 +23,9 @@ export default function homesection2() {
 
                     </div>
 
-                    <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+                    <div className="flex items-center justify-center shadow-2xl">
                         <Image src={heroimage}
-                            className="w-full h-full rounded-lg shadow-2xl lg:max-w-2xl "
+                            className="w-full h-full rounded-lg  lg:max-w-2xl "
                             alt=""
                             height="745px"
                             width="745px"

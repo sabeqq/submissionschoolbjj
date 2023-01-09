@@ -9,7 +9,7 @@ export default function about() {
     <section className="py-16 h-90 whitespace-normal">
 
       <main className="container px-6 py-4 mx-auto">
-        <div className="max-w-[1400px]  grid grid-cols-1 lg:max-w-[1400px] lg:gap-x-20 lg:grid-cols-2">
+        <div className="max-w-[1500px]  grid grid-cols-1 lg:max-w-[1500px] lg:gap-x-20 lg:grid-cols-2">
 
           <div className="grid gap-4 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:mb-0 ">
             <img src="/about1.png" height={200} width={420} alt="" className="w-full h-60 shadow-2xl object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full" loading="lazy" />
