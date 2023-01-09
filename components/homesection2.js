@@ -27,8 +27,8 @@ export default function homesection2() {
                         <Image src={heroimage}
                             className="w-full h-full rounded-lg shadow-2xl lg:max-w-2xl "
                             alt=""
-                            height={745}
-                            width={745}
+                            height="745px"
+                            width="745px"
                         />
                     </div>
                 </div>
