@@ -21,19 +21,19 @@ export default function Header() {
                     width="75px"
                 />
                 <ul className="hidden sm:flex">
-                    <li className="p-4 hover:text-orange-500" to="homesection" spy={true} smooth={true} offset={50} duration={500}>
+                    <li className="p-4 hover:text-orange-500 font-semibold" to="homesection" spy={true} smooth={true} offset={50} duration={500}>
                         <Link href="/">Home</Link>
                     </li>
-                    <li className="p-4 hover:text-orange-500" to="about" spy={true} smooth={true} offset={50} duration={500}>
+                    <li className="p-4 hover:text-orange-500 font-semibold" to="about" spy={true} smooth={true} offset={50} duration={500}>
                         <Link href="#about">About</Link>
                     </li>
-                    <li className="p-4 hover:text-orange-500" to="schedule" spy={true} smooth={true} offset={50} duration={500}>
+                    <li className="p-4 hover:text-orange-500 font-semibold" to="schedule" spy={true} smooth={true} offset={50} duration={500}>
                         <Link href="/">Schedule</Link>
                     </li>
-                    <li className="p-4 hover:text-orange-500" to="price" spy={true} smooth={true} offset={50} duration={500}>
+                    <li className="p-4 hover:text-orange-500 font-semibold" to="price" spy={true} smooth={true} offset={50} duration={500}>
                         <Link href="/">Price</Link>
                     </li>
-                    <li className="p-4 hover:text-orange-500" to="contact" spy={true} smooth={true} offset={50} >
+                    <li className="p-4 hover:text-orange-500 font-semibold" to="contact" spy={true} smooth={true} offset={50} >
                         <Link href="/">Contact</Link>
                     </li>
                 </ul>

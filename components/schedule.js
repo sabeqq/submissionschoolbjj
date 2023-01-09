@@ -4,10 +4,10 @@ import heroimage from '../public/heroimg.jpg'
 
 export default function schedule() {
   return (
-    <section className="py-16  whitespace-normal " id="schedule">
+    <section className="py-8  whitespace-normal " id="schedule">
 
       <div className="container px-6 py-4 mx-auto" >
-        <h2 className="text-1xl md:text-4xl font-bold font-sans md:font-sans mb-5 text-center"> Weekly Schedule</h2>
+        <h2 className="text-4xl md:text-4xl font-bold font-sans md:font-sans mb-5 text-center"> Weekly Schedule</h2>
 
         <div className="flex flex-col">
           <div className="overflow-x-auto sm:-mx-6 lg:-mx-8 ">
