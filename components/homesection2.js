@@ -23,7 +23,7 @@ export default function homesection2() {
 
                     </div>
 
-                    <div className="flex items-center justify-center shadow-2xl">
+                    <div className="flex items-center justify-center ">
                         <Image src={heroimage}
                             className="w-full h-full rounded-lg  lg:max-w-2xl "
                             alt=""

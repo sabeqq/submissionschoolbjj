@@ -12,9 +12,9 @@ export default function about() {
         <div className="max-w-[1500px]  grid grid-cols-1 lg:max-w-[1500px] lg:gap-x-20 lg:grid-cols-2">
 
           <div className="grid gap-4 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:mb-0 ">
-            <img src="/about1.png" height={200} width={420} alt="" className="w-full h-60 shadow-2xl object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full" loading="lazy" />
-            <img src="/about2.png" alt="" className="hidden w-full h-52 shadow-2xl object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
-            <img src="/about3.png" alt="" className="hidden w-full h-52 shadow-2xl object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
+            <img src="/about1.png" height={200} width={420} alt="" className="w-full h-60  object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full" loading="lazy" />
+            <img src="/about2.png" alt="" className="hidden w-full h-52 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
+            <img src="/about3.png" alt="" className="hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
           </div>
           <div className="text-center sm:text-left">
             <div className="">
