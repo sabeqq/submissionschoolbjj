@@ -4,7 +4,7 @@ import heroimage from '../public/landing.png'
 
 export default function homesection2() {
     return (
-        <section className="py-8 h-100 whitespace-normal	mt-24 " id="homesection">
+        <section id="home" className="py-8 h-100 whitespace-normal	mt-24" >
             <div className="container px-6 py-4 mx-auto">
 
                 <div className="grid grid-cols-1 lg:gap-x-20 lg:grid-cols-2 gap-y-10 lg:gap-y-0">

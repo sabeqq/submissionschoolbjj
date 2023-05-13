@@ -11,6 +11,13 @@ export default function Header() {
         setNav(!nav)
     }
 
+    const scrollToSection = (id) => {
+        const yOffset = -100;
+        const element = document.getElementById(id);
+        const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: yPosition, behavior: 'smooth' });
+    };
+
     return (
         <header className="fixed left-0 top-0 w-full z-10 text-black bg-white shadow-md ">
             <div className="max-w-[1500px] m-auto flex justify-between items-center p-4">
@@ -22,19 +29,20 @@ export default function Header() {
                 />
                 <ul className="hidden sm:flex">
                     <li className="p-4 hover:text-orange-500 font-semibold" to="homesection" spy={true} smooth={true} offset={50} duration={500}>
-                        <Link href="/">Home</Link>
+                        <button onClick={() => scrollToSection('home')}>Home</button>
                     </li>
                     <li className="p-4 hover:text-orange-500 font-semibold" to="about" spy={true} smooth={true} offset={50} duration={500}>
-                        <Link href="#about">About</Link>
+                        <button onClick={() => scrollToSection('about')}>About</button>
+
                     </li>
                     <li className="p-4 hover:text-orange-500 font-semibold" to="schedule" spy={true} smooth={true} offset={50} duration={500}>
-                        <Link href="/">Schedule</Link>
+                        <button onClick={() => scrollToSection('schedule')}>Schedule</button>
                     </li>
                     <li className="p-4 hover:text-orange-500 font-semibold" to="price" spy={true} smooth={true} offset={50} duration={500}>
-                        <Link href="/">Price</Link>
+                        <button onClick={() => scrollToSection('price')}>Price</button>
                     </li>
                     <li className="p-4 hover:text-orange-500 font-semibold" to="contact" spy={true} smooth={true} offset={50} >
-                        <Link href="/">Contact</Link>
+                        <button onClick={() => scrollToSection('contact')}>Contact</button>
                     </li>
                 </ul>
                 <div onClick={handleNav} className="block sm:hidden z-10" >

@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export default function about() {
   return (
-    <section className="py-8 h-90 whitespace-normal">
+    <section id="about" className="py-8 h-90 whitespace-normal">
 
       <main className="container px-6 py-4 mx-auto">
         <div className="max-w-[1500px]  grid grid-cols-1 lg:max-w-[1500px] lg:gap-x-20 lg:grid-cols-2">

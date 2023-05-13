@@ -15,7 +15,7 @@ export default function contact() {
     console.log(formData)
   }
   return (
-    <section className="py-8 h-100 whitespace-normal " id="contact">
+    <section id="contact" className="py-8 h-100 whitespace-normal ">
 
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="text-4xl md:text-4xl font-bold font-sans md:font-sans mb-5 text-center">Contact Us</h2>

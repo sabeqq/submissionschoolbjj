@@ -20,6 +20,10 @@ a {
   box-sizing: border-box;
 }
 
+#home {
+  background: url('/abstract.jpg') no-repeat center center / cover;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

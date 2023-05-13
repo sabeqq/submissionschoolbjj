@@ -1,6 +1,6 @@
 export default function price() {
     return (
-        <section className="py-8 h-100 whitespace-normal text-center" id="price">
+        <section id="price" className="py-8 h-100 whitespace-normal text-center">
 
             <h2 className="text-4xl md:text-4xl font-bold font-sans md:font-sans mb-5 text-center ">Price Plan</h2>
             <div className="container px-6 py-4 mx-auto">
