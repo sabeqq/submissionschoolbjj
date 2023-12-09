@@ -24,8 +24,8 @@ export default function Header() {
                 <Image
                     src={logo}
                     alt=""
-                    height="75px"
-                    width="75px"
+                    height="75"
+                    width="75"
                 />
                 <ul className="hidden sm:flex">
                     <li className="p-4 hover:text-orange-500 font-semibold" to="homesection" spy={true} smooth={true} offset={50} duration={500}>

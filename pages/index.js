@@ -9,6 +9,8 @@ import AboutSection from '../components/about'
 import ScheduleSection from '../components/schedule'
 import PriceSection from '../components/price'
 import ContactSection from '../components/contact'
+import InstagramFeed from '../components/instagramfeed'
+import GoogleReviewsFeed from '../components/googlereviewsfeed'
 
 
 
@@ -21,6 +23,8 @@ export default function Home() {
       <AboutSection></AboutSection>
       <ScheduleSection></ScheduleSection>
       <PriceSection></PriceSection>
+     <InstagramFeed></InstagramFeed>
+     <GoogleReviewsFeed></GoogleReviewsFeed>
       <ContactSection></ContactSection>
     </Format>
   )

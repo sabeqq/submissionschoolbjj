@@ -13,7 +13,7 @@ export default function homesection2() {
 
                             <div className="lg:max-w-lg">
                                 <h1 className="text-6xl font-bold text-gray-800 dark:text-black lg:text-8xl md:text-8xl">Submission School</h1>
-                                <h2 className="text-2xl font-bold text-gray-800 dark:text-black lg:text-3xl md:text-4xl ">Brazilian Jiu Jitsu School</h2>
+                                <h2 className="text-2xl font-bold text-gray-800 dark:text-black lg:text-3xl md:text-4xl mt-6 ">Brazilian Jiu Jitsu School</h2>
 
                                 <p className="mt-4 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? Reiciendis natus perspiciatis optio.</p>
 
