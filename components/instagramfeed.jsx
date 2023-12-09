@@ -53,9 +53,9 @@ function InstagramFeed() {
   };
 
   return (
-    <section id="schedule" className="py-8 bg-orange-400 whitespace-normal">
+    <section id="schedule" className="py-8 bg-white whitespace-normal">
       <div className="container px-6 py-4 mx-auto">
-        <h2 className="text-4xl md:text-4xl font-bold text-white font-sans md:font-sans mb-5 text-center">
+        <h2 className="text-4xl md:text-4xl font-bold text-black font-sans md:font-sans mb-5 text-center">
           Gallary
         </h2>
         <Slider {...settings}>
