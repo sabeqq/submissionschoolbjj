@@ -24,7 +24,7 @@ export default function Home() {
       <ScheduleSection></ScheduleSection>
       <PriceSection></PriceSection>
      <InstagramFeed></InstagramFeed>
-     <GoogleReviewsFeed></GoogleReviewsFeed>
+     {/* <GoogleReviewsFeed></GoogleReviewsFeed> */}
       <ContactSection></ContactSection>
     </Format>
   )
