@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
-import heroimage from '../public/sslogo.jpg';
+import heroimage from '../public/SSlogo.jpg';
 
 export default function homesection2() {
     const scrollToContact = () => {
