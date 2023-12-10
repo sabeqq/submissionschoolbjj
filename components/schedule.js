@@ -9,14 +9,13 @@ export default function schedule() {
       <div className="container px-6 py-4 mx-auto" >
         <h2 className="text-4xl md:text-4xl font-bold font-sans md:font-sans mb-10 text-center"> Weekly Schedule</h2>
 
-        <div className="flex flex-col">
-          <div className="overflow-x-auto sm:-mx-6 lg:-mx-8 ">
-            <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
-              <div className="overflow-hidden rounded-lg border-2 border-black" >
-                <table className="min-w-full text-center ">
-                  <thead className=" sticky top-0  ">
+        <div className="flex flex-col ">
+          <div className="overflow-x-auto sm:-mx-6 lg:-mx-8  ">
+            <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8 ">
+                <table className="min-w-full text-center rounded-lg border-2 border-black ">
+                  <thead className=" ">
                     <tr>
-                      <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 bg-orange-400  sticky left:0 z-2 ;">
+                      <th scope="col" className="sticky left-0 z-2 px-6 py-4 font-medium text-gray-900 bg-orange-400 rounded-tl">
                         Time
                       </th>
                       <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 bg-orange-400">
@@ -42,9 +41,9 @@ export default function schedule() {
                       </th>
                     </tr>
                   </thead >
-                  <tbody>
+                  <tbody className="divide-y">
                     <tr className="bg-white border-b">
-                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">10:30AM - 11:15AM</td>
+                      <td className=" sticky left-0 z-2 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900  bg-orange-400 ">10:30AM - 11:15AM</td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                         -
                       </td>
@@ -68,7 +67,7 @@ export default function schedule() {
                       </td>
                     </tr >
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap">
+                      <td className=" sticky left-0 z-2 text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap bg-orange-400 ">
                       11:15AM - 12:15AM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -93,7 +92,7 @@ export default function schedule() {
                         Kids class +7                      </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap">
+                      <td className="sticky left-0 z-2 text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap  bg-orange-400 ">
                       12:30AM - 13:30PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -119,7 +118,7 @@ export default function schedule() {
                       </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap">
+                      <td className="sticky left-0 z-2 text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap  bg-orange-400 ">
                         18:00PM - 19:00PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -145,7 +144,7 @@ export default function schedule() {
                       </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap">
+                      <td className="sticky left-0 z-2 text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap bg-orange-400 ">
                         18:30PM - 19:30PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -171,7 +170,7 @@ export default function schedule() {
                       </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap">
+                      <td className="sticky left-0 z-2 text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap bg-orange-400 ">
                         19:00PM - 20:00PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -197,7 +196,7 @@ export default function schedule() {
                       </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4  font-medium whitespace-nowrap">
+                      <td className="sticky left-0 z-2 text-sm text-gray-900 font-light px-6 py-4  font-medium whitespace-nowrap  bg-orange-400 ">
                         19:30PM - 20:30PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -223,7 +222,7 @@ export default function schedule() {
                       </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4  font-medium whitespace-nowrap">
+                      <td className="sticky left-0 z-2 text-sm text-gray-900 font-light px-6 py-4  font-medium whitespace-nowrap  bg-orange-400 ">
                         19:00PM - 20:30PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -250,7 +249,7 @@ export default function schedule() {
                       </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap">
+                      <td className="sticky left-0 z-2 text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap  bg-orange-400 ">
                         19:15PM - 20:15PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -276,7 +275,7 @@ export default function schedule() {
                       </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap">
+                      <td className="  sticky left-0 z-5 text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap  bg-orange-400 ">
                         20:00PM - 21:30PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -305,7 +304,7 @@ export default function schedule() {
                       </td>
                     </tr>
                     <tr className="bg-white border-b">
-                      <td className="text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap">
+                      <td className=" sticky left-0 z-2text-sm text-gray-900 font-light px-6 py-4 font-medium whitespace-nowrap  bg-orange-400 ">
                         20:30PM - 21:30PM
                       </td>
                       <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -334,7 +333,6 @@ export default function schedule() {
 
                   </tbody>
                 </table>
-              </div>
             </div>
           </div>
         </div>

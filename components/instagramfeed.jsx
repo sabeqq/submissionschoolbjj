@@ -63,7 +63,7 @@ function InstagramFeed() {
             images.map((image, index) => (
               <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-3">
                 <img
-                  className="h-full w-full object-cover"
+                  className="h-full w-full rounded-lg object-cover"
                   src={image.media_url}
                   alt={`Image ${index}`}
                 />

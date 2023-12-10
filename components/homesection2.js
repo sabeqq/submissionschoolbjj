@@ -15,7 +15,7 @@ export default function homesection2() {
             <div className="container px-6 py-4 mx-auto">
                 <div className="grid grid-cols-1 lg:gap-x-20 lg:grid-cols-2 gap-y-10 lg:gap-y-0">
                     <div className="flex items-center text-center sm:text-left">
-                        <div className="">
+                        <div className="S">
                             <div className="lg:max-w-lg">
                                 <h1 className="text-6xl font-bold text-gray-800 dark:text-black lg:text-8xl md:text-8xl">Submission School</h1>
                                 <h2 className="text-2xl font-bold text-gray-800 dark:text-black lg:text-3xl md:text-4xl mt-6 ">Brazilian Jiu Jitsu School</h2>
