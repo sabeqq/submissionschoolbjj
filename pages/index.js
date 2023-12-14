@@ -18,6 +18,7 @@ import GoogleReviewsFeed from '../components/googlereviewsfeed'
 export default function Home() {
   return (
 
+
     <Format>
       <HomeSection2></HomeSection2>
       <AboutSection></AboutSection>

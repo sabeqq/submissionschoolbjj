@@ -53,23 +53,49 @@ function InstagramFeed() {
   };
 
   return (
-    <section id="schedule" className="py-8 bg-white whitespace-normal">
+       <section id="schedule" className="py-8 bg-white whitespace-normal">
       <div className="container px-6 py-4 mx-auto">
         <h2 className="text-4xl md:text-4xl font-bold text-black font-sans md:font-sans mb-10 text-center">
-          Gallary
+          Gallery
         </h2>
         <Slider {...settings}>
           {images.length > 0 ? (
-            images.map((image, index) => (
-              <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-3">
-                <img
-                  className="h-full w-full rounded-lg object-cover"
-                  src={image.media_url}
-                  alt={`Image ${index}`}
-                />
-                {/* Rest of your code for icons */}
-              </div>
-            ))
+            images
+              .filter((media) => media.media_type === 'IMAGE' && !media.is_video) // Exclude videos
+              .map((media, index) => (
+                <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-3">
+                  {media.media_type === 'CAROUSEL_ALBUM' && media.children?.data ? (
+                    // Render multiple images for carousel album
+                    media.children.data.map((carouselImage, carouselIndex) => (
+                      <a 
+                        key={carouselIndex}
+                        href={carouselImage.permalink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          className="h-full w-full rounded-lg object-cover"
+                          src={carouselImage.media_url}
+                          alt={`Carousel Image ${carouselIndex}`}
+                        />
+                      </a>
+                    ))
+                  ) : (
+                    <a
+                      href={media.permalink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        className="h-full w-full rounded-lg object-cover"
+                        src={media.media_url}
+                        alt={`Image ${index}`}
+                      />
+                    </a>
+                  )}
+                  {/* Rest of your code for icons */}
+                </div>
+              ))
           ) : (
             <p>No images available</p>
           )}

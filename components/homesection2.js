@@ -34,7 +34,7 @@ export default function homesection2() {
                     <div className="flex items-center justify-center ">
                         <Image
                             src={heroimage}
-                            className="w-full h-full rounded-lg lg:max-w-2xl "
+                            className="w-full h-full rounded-lg lg:max-w-2xl mix-blend-multiply	"
                             alt=""
                             height="700px"
                             width="700px"
